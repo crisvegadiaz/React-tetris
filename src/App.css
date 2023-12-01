@@ -1,0 +1,39 @@
+main{
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin: 1rem;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 10 columns */
+  grid-template-rows: repeat(30, 1fr);    /* 30 rows */
+  gap: 1px; 
+  margin: 1rem;
+  height: 53rem;
+}
+
+.grid-item{
+  
+  background-color: #ccc;
+  border: 1px solid #333;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+
+
+.red{
+  background-color: rgb(255, 58, 58);
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: rgb(1, 114, 252);
+}
+.green{
+  background-color: rgb(3, 226, 3);
+}
